@@ -4,7 +4,7 @@ public class Constructor {
 
 	
 	public Constructor() {
-		this(100, "Javaclass");
+		this(100, "SeleniumClass");
 		System.out.println("Default const"); 
 		
 	}
@@ -24,7 +24,7 @@ public class Constructor {
 	
 	public static void main(String[] args) {
 		Constructor c= new Constructor();
-		Constructor c1= new Constructor(100,"Javaclass");
+		Constructor c1= new Constructor(100,"SeleniumClass");
 	}
 	
 	
